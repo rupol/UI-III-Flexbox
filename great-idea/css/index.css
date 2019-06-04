@@ -95,6 +95,7 @@ h1, h2, h3, h4, h5 {
 	color: #028ADE;
 }
 
+
 /* STRUCTURE */
 .half {
 	width: 50%;
@@ -130,19 +131,24 @@ header button {
 	font-size: 16px;
 	background-color: white;
 	border: 1px solid black;
+	
 	margin: 17px 0 0 150px;
 	padding: 7px 40px;
 	letter-spacing: 1.1px;
+}
+
+.btn {
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 	transition: all .2s;
   	position: relative;
 }
 
-header button:hover {
+.btn:hover {
 	transform: translateY(-3px);
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-header button:active {
+.btn:active {
 	transform: translateY(-1px);
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
@@ -247,8 +253,27 @@ footer {
 
 .services__bottom-content {
 	border-top: 1px solid black;
+	padding: 45px 0 30px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
+.services__bottom-content .half {
+	width: 48%;
+}
+
+.services__bottom-content h2 {
+	margin-bottom: 20px;
+}
+
+.services__bottom-content p {
+	line-height: 1.2;
+	margin-bottom: 20px;
+}
+
+.services__bottom-content ul {
+	list-style-type: square;
+	list-style-position: inside;
+	line-height: 1.9;
+}
