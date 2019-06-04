@@ -99,10 +99,12 @@ h1, h2, h3, h4, h5 {
 /* STRUCTURE */
 .half {
 	width: 50%;
+	padding-right: 5px;
 }
 
 .third {
-	width: 33%;
+	width: 33.33%;
+	padding-right: 10px;
 }
 
 .middle-img {
@@ -112,10 +114,10 @@ h1, h2, h3, h4, h5 {
 /* HEADER */
 
 header {
-	margin-top: 80px;
+	margin-top: 90px;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: center;
 }
 
 header h1 {
@@ -147,13 +149,15 @@ header button:active {
 }
 
 header img {
-	margin: 40px 0 66px 66px;
+	margin: 40px 0 0px 60px;
 }
 
 /* TOP CONTENT */
 
 .top-content {
-	margin: 37px -35px 38px 0;
+	border-top: 1px solid black;
+	margin: 75px 0 45px 0;
+	padding-top: 40px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
@@ -171,7 +175,7 @@ header img {
 .contact {
 	margin-top: 57px;
 	border-top: 1px solid black;
-	padding: 39px 10px 0;
+	padding-top: 40px;
 }
 
 .contact p {
@@ -181,5 +185,5 @@ header img {
 footer {
 	font-size: 14px;
 	text-align: center;
-	margin: 32px 0;
+	margin: 55px 0;
 }
