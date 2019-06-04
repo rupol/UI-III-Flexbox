@@ -66,8 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container {
 	margin: 0 auto;
-	width: 1024px;
-	padding: 0 75px;
+	width: 880px;
 }
 
 /* NAVIGATION */
@@ -113,7 +112,7 @@ h1, h2, h3, h4, h5 {
 
 /* HEADER */
 
-header {
+.main-header {
 	margin-top: 90px;
 	display: flex;
 	flex-wrap: wrap;
@@ -188,22 +187,68 @@ footer {
 	margin: 55px 0;
 }
 
-
+/* ////////////////////////////////////// */
 /* SERVICES PAGE */
-.services__main-content {
-	border-top: 1px solid black;
-	margin: 75px 0 45px 0;
-	padding-top: 40px;
+/* ////////////////////////////////////// */
+
+/* HEADER */
+
+.services-header {
+	margin: 85px 0 40px;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: flex-start;
+	line-height: 1.25;
 }
+
+.services-header-img {
+	margin: 0 0 30px;
+}
+
+.services-h1 {
+	font-size: 28px;
+	align-self: flex-start;
+	letter-spacing: 0;
+	margin: 0 0 10px;
+}
+
+/* MAIN CONTENT */
+
+.services__main-content {
+	height: 915px;
+	border-top: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-evenly;
+}
+
+.services-box {
+	border: 1px solid black;
+	background: #F4F3F4;
+	width: 420px;
+	height: 250px;
+	padding: 22px;
+	line-height: 1.2;
+}
+
+.learn-button {
+	background: white;
+	border: 1px solid black;
+	margin-top: 25px;
+	border-radius: 5px;
+	font-size: 12px;
+	padding: 8px;
+	width: 140px;
+
+}
+
+/* BOTTOM CONTENT */
 
 .services__bottom-content {
 	border-top: 1px solid black;
-	margin: 75px 0 45px 0;
-	padding-top: 40px;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: space-between;
 }
+
