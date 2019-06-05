@@ -203,7 +203,6 @@ footer {
 	margin: 85px 0 40px;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: flex-start;
 	line-height: 1.25;
 }
 
@@ -276,4 +275,59 @@ footer {
 	list-style-type: square;
 	list-style-position: inside;
 	line-height: 1.9;
+}
+
+
+/* ////////////////////////////////////// */
+/* PRODUCT PAGE */
+/* ////////////////////////////////////// */
+
+/* HEADER */
+
+.product-header {
+	margin: 100px 0 40px;
+	display: flex;
+	flex-wrap: wrap;
+	line-height: 1.25;
+}
+
+.product-h1 {
+	font-size: 60px;
+	margin: 0;
+}
+
+.product-header p {
+	margin-bottom: 20px;
+}
+
+.product-header-img {
+	margin: 0;
+}
+
+
+
+/* MAIN CONTENT */
+
+.product__main-content {
+	border-top: 1px solid black;
+}
+
+.product__main-content h2 {
+	font-size: 48px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.product__features-images {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+	height: 800px;
+}
+
+.features-img {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
 }
